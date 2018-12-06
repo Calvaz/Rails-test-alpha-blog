@@ -1,71 +1,12 @@
 <!DOCTYPE html>
-<style>
-head 
-    {
-    color: white;
-    text-align: center;
-    font-family: courier;
-    margin:40px;
-    }
-
-header
-    {
-    color:white;
-    text-align:center;
-    font-family:courier;
-    margin:40px;
-    }
-    
-body 
-    {
-     background-color:black;
-     text-align: center;
-     font-size: 30px;
-    }
- 
-side
-    {
-    background-color:black;
-    float:right;
-    text-align:center;
-    margin-right:80px;
-    color:white;
-    }
- 
-footer
-    {
-    text-align:center;
-    color:white;
-    background-color:black;
-    font-family:courier;
-    margin:50px;
-    }
-<%= link_to image_tag('Cloud_Strife.png'), 'https://upload.wikimedia.org/wikipedia/en/9/9e/Cloud_Strife.png' %>
-</style>
 <html>
-    
-<head>
-</head>
-
-<header>FF7 got'cha
-</header>
-
-<body>
-    <img src="https://upload.wikimedia.org/wikipedia/en/9/9e/Cloud_Strife.png">
-    <side>
-    <%= link_to "Alpha blog", articles_path %> 
-    </side>
-    <p>
-      Tom was 'ere!
-    </p>
-</body>
-    
-    
-<footer>
-    <p>This is Cloud, posing in my HOME.</p>
-    <side>
-        <%= link_to 'About', about_path %>
-    </side>
-</footer>
-    
+        <div class="sidebar">
+            <div class="jumbotron">
+                <p>Welcome to Cavea's blog</br></br>
+                <%= link_to "Sign up!", "#", class: "btn btn-danger btn-lg btn-style" %>
+                </p>
+            </div>
+        </div>
+        <div class="content"></div>
+        <p class="content">aeae</p>
 </html>
