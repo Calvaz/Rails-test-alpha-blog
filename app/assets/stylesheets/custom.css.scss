@@ -33,6 +33,10 @@
    letter-spacing: -1px;
 }
 
+.well {
+    padding: 5px 10px;
+}
+
 .btn-style1 {
     background-color: #060d13;
     border-color: #fff;
@@ -45,10 +49,6 @@
     margin: 5px 5px 2px 3px;
     border-radius: 2px;
     color: black;
-}
-
-.btn-primary {
-    
 }
 
 .right{
@@ -111,3 +111,6 @@ h1 {
     padding-top: 5px;
 }
 
+.article-body {
+    margin-bottom: 5px;
+}
