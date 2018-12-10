@@ -14,7 +14,9 @@ before_action :set_article, only: [:edit, :update, :show, :destroy]
     end
     
     def create
+        debugger
         @article = Article.new(article_params)
+        @article.user = User.first
         if @article.save
             flash[:success] = "Article was successfully saved"
             redirect_to article_path(@article)
