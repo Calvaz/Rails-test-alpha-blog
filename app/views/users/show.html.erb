@@ -4,5 +4,11 @@
         <%= gravatar_for @user, size: 150 %></h1>
     </div>
 </div>
-<h4 class="font_choice" align="center"><%= @user.username %>'s article</h4>
-<%= render 'articles/article', obj: @user.articles %>
+<h4 class="font_choice" align="center"><%= @user.username.capitalize %>'s articles</h4>
+<div class="paginate">
+    <%= will_paginate @user_articles %>
+</div>
+<%= render 'articles/article', obj: @user_articles %>
+<div class="paginate">
+    <%= will_paginate @user_articles %>
+</div>

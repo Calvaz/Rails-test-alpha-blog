@@ -51,9 +51,13 @@
     color: black;
 }
 
-.right{
+.right {
     float: right;
     margin-right: 5px;
+}
+
+.center {
+    text-align: center;
 }
 
 .sidebar { 
@@ -118,4 +122,14 @@ h1 {
 .article-meta-details {
     border-top: 1px;
     margin-top: 15px;
+}
+
+.paginate {
+    margin-left: 20px;
+}
+
+
+.listing {
+    list-style: none;
+    padding-left: 0px;
 }
