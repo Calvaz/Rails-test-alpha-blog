@@ -1,6 +1,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+html, body {
+     height: 100%;
+     max-width: 100%;
+     overflow-x: hidden;
+}
+
 .navbar-inverse {
     font-family: courier;
     background-color: #060d13;
@@ -21,20 +27,22 @@
 
 .jumbotron {
     text-align: right;
-    font-size: 7em;
+    height: 150px;
     padding: 15px;
     border-radius: 5px;
     background-color: #060d13;
 }
 
-.jumbotron p {
-   color: #fff; 
-   font-family: courier;
-   letter-spacing: -1px;
+#homebtn {
+    text-align: center;
+    color: #fff; 
+    font-family: courier;
+    letter-spacing: -1px;
+    font-size: 1.7em;
 }
 
 .well {
-    padding: 5px 10px;
+    padding: 10px 10px;
 }
 
 .btn-style1 {
@@ -51,6 +59,10 @@
     color: black;
 }
 
+.navbar {
+    width: 100%;
+}
+
 .right {
     float: right;
     padding-right: 5px;
@@ -60,13 +72,12 @@
     text-align: center;
 }
 
-.sidebar { 
-    float: right;
-    margin-right: 40px;
-    margin-top: 25px;
-    height: 100px;
+/*.sidebar { 
     width: default;
-}
+    height: default;
+    float: right;
+    margin: 25px 40px 0px 0px;
+}*/
 
 .content {
     width: default;
@@ -79,14 +90,12 @@
 }
 
 body {
-    background-image: asset-url('sfumato_a_macchie.jpg');
-    background-size: cover;
+    background-image: asset-url('');
     background-repeat: no-repeat;
 }
 
 .footer {
     height: 50px;
-    width: 100%;
     margin-top: 25px;
     padding: 12px 15px 0px 12px;
     border-top: 1px solid #eaeaea;
@@ -124,6 +133,7 @@ h1 {
     margin-top: 15px;
 }
 
+
 .paginate {
     margin-left: 20px;
 }
@@ -133,3 +143,4 @@ h1 {
     list-style: none;
     padding-left: 0px;
 }
+
