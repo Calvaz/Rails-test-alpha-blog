@@ -133,6 +133,16 @@ h1 {
     margin-top: 15px;
 }
 
+.article-btn {
+    color: #fff;
+    background-color: #060d13;
+    text-decoration: none;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    padding: 3px;
+}
 
 .paginate {
     margin-left: 20px;
@@ -144,3 +154,13 @@ h1 {
     padding-left: 0px;
 }
 
+.badge {
+    background-color: #eaeaea;
+    text-transform: uppercase;
+    margin-right: 3px;
+    border-radius: 6px;
+}
+
+.input_checkbox input {
+    width: auto !important;
+}

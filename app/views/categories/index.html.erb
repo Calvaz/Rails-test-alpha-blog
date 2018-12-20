@@ -1,6 +1,10 @@
 <h1>Listing all categories</h1>
-<div align="center">
+<div class="col-sm-2">
+    <%= link_to "New Articles", new_article_path, class:"btn btn-primary btn-lg btn-style1" %>
+</div>
+<div class="col-sm-offset-2">
     <%= will_paginate %>
+</div>
     <% @categories.each do |category| %>
         <ul class="listing">
             <div class="row">
@@ -8,9 +12,11 @@
                     <li class="article-title">
                         <%= link_to "#{category.name}", category_path(category) %>
                     </li>
+                    <li><small><%= pluralize(category.articles.count, "article") %></small></li>
                 </div>
             </div>
         </ul>
     <% end %>
+<div class="col-sm-offset-2">
     <%= will_paginate %>
 </div>
