@@ -81,7 +81,7 @@ html, body {
 
 .content {
     width: default;
-    height: default;
+    height: auto;
     background-color: #fff;
     margin: 20px;
     border: solid 1px #eaeaea;
@@ -144,6 +144,13 @@ h1 {
     padding: 3px;
 }
 
+.category-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.7em;
+    margin: 0px 4px 4px 4px;
+}
+
 .paginate {
     margin-left: 20px;
 }
@@ -163,4 +170,8 @@ h1 {
 
 .input_checkbox input {
     width: auto !important;
+}
+
+.mrg-fix {
+    padding: 15px;
 }

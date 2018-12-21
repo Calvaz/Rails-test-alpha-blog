@@ -1,8 +1,12 @@
-<h1><%=  @category.name %></h1>
-<div class="paginate">
-    <%= will_paginate @category_articles %>
+<h1><%= @category.name %></h1>
+<div class="col-sm-2">
+    <div class="paginate">
+        <%= will_paginate @category_articles %>
+    </div>
 </div>
 <%= render 'articles/article', obj: @category_articles %>
-<div class="paginate">
-    <%= will_paginate @category_articles %>
+<div class="col-sm-2">
+    <div class="paginate">
+        <%= will_paginate @category_articles %>
+    </div>
 </div>
