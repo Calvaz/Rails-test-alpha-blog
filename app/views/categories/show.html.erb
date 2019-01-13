@@ -1,11 +1,14 @@
 <h1><%= @category.name %></h1>
-<div class="col-sm-2">
+<div class="col-sm-3">
+    <%= link_to "New Articles", new_article_path, class:"btn btn-primary btn-lg btn-style2" %>
+</div>
+<div class="col-sm-offset-2">
     <div class="paginate">
         <%= will_paginate @category_articles %>
     </div>
 </div>
 <%= render 'articles/article', obj: @category_articles %>
-<div class="col-sm-2">
+<div class="col-sm-offset-2">
     <div class="paginate">
         <%= will_paginate @category_articles %>
     </div>

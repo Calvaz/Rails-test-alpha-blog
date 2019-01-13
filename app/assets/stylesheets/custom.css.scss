@@ -10,6 +10,7 @@ html, body {
 .navbar-inverse {
     font-family: courier;
     background-color: #060d13;
+    margin-bottom: 0px;
 }
 
 #logo {
@@ -26,9 +27,9 @@ html, body {
 }
 
 .jumbotron {
-    text-align: right;
-    height: 150px;
-    padding: 15px;
+    height: 100px;
+    width: auto;
+    padding: 10px;
     border-radius: 5px;
     background-color: #060d13;
 }
@@ -51,16 +52,12 @@ html, body {
 }
 
 .btn-style2 {
-    background-color: #fff;
-    border: solid 1px #262626;
-    padding: 3px 5px;
-    margin: 5px 5px 2px 3px;
-    border-radius: 2px;
+    background-color: #eaeaea;
+    border: solid 1.5px #d9d9d9;
+    padding: 6px 10px;
+    margin: 5px 5px 10px 25px;
+    border-radius: 3px;
     color: black;
-}
-
-.navbar {
-    width: 100%;
 }
 
 .right {
@@ -72,6 +69,12 @@ html, body {
     text-align: center;
 }
 
+.presentation {
+    margin-top: 0px;
+    height: 250px;
+    background: asset-url('backgrnd.png');
+    background-repeat: no-repeat;
+}
 /*.sidebar { 
     width: default;
     height: default;
@@ -103,13 +106,27 @@ body {
     bottom: 0;
 }
 
-h1, .font_choice {
+.font_choice {
     color: #fff;
     font-family: courier;
 }
 
 h1 {
+    color: #000000;
+    font-family: courier;
     text-align: center;
+}
+
+.black {
+    font-family: courier;
+    color: #000000;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.home-title {
+    padding-top: 30px;
+    padding-left: 45px;
 }
 
 .article-title {
