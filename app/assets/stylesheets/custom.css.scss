@@ -27,10 +27,8 @@ html, body {
 }
 
 .jumbotron {
-    height: 100px;
-    width: auto;
     padding: 10px;
-    margin-top: 60px;
+    margin-top: 30px;
     border-radius: 5px;
     background-color: #060d13;
 }
@@ -125,9 +123,11 @@ h1 {
     font-weight: bold;
 }
 
-.home-title {
+.home-title-top {
     padding-top: 30px;
-    padding-left: 45px;
+    .home-title {
+        padding-left: 45px;
+    }
 }
 
 .article-title {
