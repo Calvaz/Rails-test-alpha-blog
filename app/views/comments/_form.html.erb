@@ -1,0 +1,5 @@
+<%= form_for(:comment, :html => { class: "form-horizontal", role: "form"}) do |f| %>
+    <div class="col-md-8">
+        <%= f.text_field :description, class: "form-control", placeholder: "Write a comment..", autofocus: true %>
+    </div>
+<% end %>
